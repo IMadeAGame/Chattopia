@@ -1,0 +1,62 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <title>Chattopia</title>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul class=flashes>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <h1>COMING SOON</h1>
+    <form action="/chat">
+      <label>Go back to the chatrooms: </label>
+      <input type="submit" value="Chat">
+    </form>
+    <img src="0.png" width="100" height="80" alt="0">
+    <form action="/shop">
+      <label>Owned</label>
+      <input type="submit" value="Equipped">
+    </form>
+    <img src="1.png" width="100" height="80" alt="1">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+    <img src="2.png" width="100" height="80" alt="2">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+    <img src="3.png" width="100" height="80" alt="3">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+    <img src="4.png" width="100" height="80" alt="4">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+    <img src="5.png" width="100" height="80" alt="5">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+    <img src="6.png" width="100" height="80" alt="6">
+    <form action="/shop">
+      <label>$2.99 </label>
+      <input type="submit" value="Buy">
+    </form>
+<body>
+</html>
